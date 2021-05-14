@@ -1,0 +1,27 @@
+{
+    "name": "tripulardigital/pdo_raiz",
+    "description": "this is a simple example of querying the database with PDO in the PHP",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Tripular Digital",
+            "email": "tripulardigital@tripulardigital.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "v6.4.*"
+    }
+}
